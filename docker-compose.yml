@@ -1,0 +1,8 @@
+web:
+  container_name: my-nginx
+  image: nginx
+  ports:
+   - 8080:80
+  volumes:
+   - ./static:/usr/share/nginx/html
+   - ./conf.d:/etc/nginx/conf.d
