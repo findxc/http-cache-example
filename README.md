@@ -1,7 +1,17 @@
+
 # http-cache-example
 
 使用 NGINX 和 Docker 来在本地测试 HTTP 缓存设置的效果。
 
+启动项目流程：
+## 1. 本地下载docker
+
+* [windows版本下载地址](https://docs.docker.com/desktop/windows/install/)
+* [mac版本下载地址](https://docs.docker.com/desktop/mac/install/)
+
+## 2. 启动docker软件
+
+## 3. 项目路径执行命令
 在项目路径下执行 `docker compose up -d` 启动服务，然后访问 http://localhost:8080 即可。
 
 如果修改了 `conf.d` ，需要 `docker compose restart` 。
